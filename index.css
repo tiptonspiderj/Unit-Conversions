@@ -28,9 +28,20 @@ h1 {
   font-size: 58px;
   font-weight: 800;
   background: #6943FF;
-  border: 2px solid #B295FF;
+  border: 3px solid #B295FF;
   text-align: center;
   color: white;
+}
+
+#input:focus {
+  outline: none;
+  border: 3px solid #273549;
+  color: lightgrey;
+  text-shadow: 1px 1px 5px black;
+}
+
+#input:hover {
+  cursor: pointer;
 }
 
 #convert-btn{
