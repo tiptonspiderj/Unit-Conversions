@@ -20,7 +20,6 @@ function setInitialPage() {
 setInitialPage()
 
 button.addEventListener("click", function() {
-  //console.log("clicked")
   stringBuiler(input.value, length)
   stringBuiler(input.value, volume)
   stringBuiler(input.value, mass)
@@ -71,14 +70,3 @@ function convertPoundsToKilos(input) {
   let kilos = (input * (poundToKiloConv)).toFixed(3)
   return kilos
 }
-
-//console.log(convertFeetToMeters(input.value))
-//console.log(convertMetersToFeet(input.value))
-//console.log(convertGallonsToLiters(input.value))
-//console.log(convertLitersToGallons(input.value))
-//console.log(convertKilosToPounds(input.value))
-//console.log(convertPoundsToKilos(input.value))
-//console.log(length)
-//console.log(volume)
-//console.log(mass)
-//let numberOfUnits = input.value
