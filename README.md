@@ -19,7 +19,7 @@ None
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Page Background Color | ![#fff](https://imageplaceholder.net/10x10/fff?text=) #fff |
+| Page Background Color | ![#ffffff](https://imageplaceholder.net/10x10/ffffff?text=) #ffffff |
 | Top Background Color | ![#1f2937](https://imageplaceholder.net/10x10/1f2937?text=) #1f2937 |
 | Bottom Background Color | ![#1f2937](https://imageplaceholder.net/10x10/1f2937?text=) #1f2937 |
 | Top Text Color | ![#d1d5db](https://imageplaceholder.net/10x10/d1d5db?text=) #d1d5db |
