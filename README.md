@@ -22,9 +22,9 @@ None
 | Page Background Color | ![#ffffff](https://imageplaceholder.net/10x10/ffffff?text=) #ffffff |
 | Top Background Color | ![#6943ff](https://imageplaceholder.net/10x10/6943ff?text=) #6943ff |
 | Bottom Background Color | ![#1f2937](https://imageplaceholder.net/10x10/1f2937?text=) #1f2937 |
-| Top Text Color | ![#d1d5db](https://imageplaceholder.net/10x10/d1d5db?text=) #d1d5db |
-| Bottom Text Color | ![#d1d5db](https://imageplaceholder.net/10x10/d1d5db?text=) #d1d5db |
-| Button Color | ![#3d4b60](https://imageplaceholder.net/10x10/3d4b60?text=) #3d4b60 |
+| Top Text Color | ![#ffffff](https://imageplaceholder.net/10x10/ffffff?text=) #ffffff |
+| Bottom Text Color | ![#ccc1ff](https://imageplaceholder.net/10x10/ccc1ff?text=) #ccc1ff |
+| Button Color | ![#ffffff](https://imageplaceholder.net/10x10/ffffff?text=) #ffffff |
 
 
 ## Authors
