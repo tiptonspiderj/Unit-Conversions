@@ -19,8 +19,11 @@ None
 
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
-| Background Color | ![#1f2937](https://imageplaceholder.net/10x10/1f2937?text=) #1f2937 |
-| Text Color | ![#d1d5db](https://imageplaceholder.net/10x10/d1d5db?text=) #d1d5db |
+| Page Background Color | ![#1f2937](https://imageplaceholder.net/10x10/1f2937?text=) #1f2937 |
+| Top Background Color | ![#1f2937](https://imageplaceholder.net/10x10/1f2937?text=) #1f2937 |
+| Bottom Background Color | ![#1f2937](https://imageplaceholder.net/10x10/1f2937?text=) #1f2937 |
+| Top Text Color | ![#d1d5db](https://imageplaceholder.net/10x10/d1d5db?text=) #d1d5db |
+| Bottom Text Color | ![#d1d5db](https://imageplaceholder.net/10x10/d1d5db?text=) #d1d5db |
 | Button Color | ![#3d4b60](https://imageplaceholder.net/10x10/3d4b60?text=) #3d4b60 |
 
 
