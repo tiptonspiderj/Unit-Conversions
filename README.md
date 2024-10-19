@@ -20,7 +20,7 @@ None
 | Color             | Hex                                                                |
 | ----------------- | ------------------------------------------------------------------ |
 | Page Background Color | ![#ffffff](https://imageplaceholder.net/10x10/ffffff?text=) #ffffff |
-| Top Background Color | ![#1f2937](https://imageplaceholder.net/10x10/1f2937?text=) #1f2937 |
+| Top Background Color | ![#6943ff](https://imageplaceholder.net/10x10/6943ff?text=) #6943ff |
 | Bottom Background Color | ![#1f2937](https://imageplaceholder.net/10x10/1f2937?text=) #1f2937 |
 | Top Text Color | ![#d1d5db](https://imageplaceholder.net/10x10/d1d5db?text=) #d1d5db |
 | Bottom Text Color | ![#d1d5db](https://imageplaceholder.net/10x10/d1d5db?text=) #d1d5db |
