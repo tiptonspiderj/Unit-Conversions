@@ -1,15 +1,11 @@
-# Color pallete generator
-This application will provide different color pallete options from a color of your choosing.  
-
-## Description
-
-This application will let you choose from seven different color pallete types.  It interacts with the color api website.
+# Unit Conversion Tool
+This application will provide unit conversions for length, volume, and mass between metric and imperial units.  
 
 ## Getting Started
 
 Click on the image below to see the live website.
 
-[![application images](https://github.com/tiptonspiderj/color-pallete/blob/main/Screenshot.png)](https://tiptonspiderj1-color-pallete.netlify.app/)
+[![application images](https://github.com/tiptonspiderj/Unit-Conversions/blob/main/Screenshot.png)](https://tiptonspiderj1-unit-conversion-tool.netlify.app/)
 
 ### Installing for Windows
 
