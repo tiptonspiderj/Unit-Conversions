@@ -9,7 +9,7 @@ Click on the image below to see the live website.
 
 ### Installing for Windows
 
-You can make a clone of this repository and then extract all of the files into one folder.  From there, simply click on the "index.html" file and open it with your favorite web browser. 
+You can make a clone of this repository and then extract all the files into one folder.  From there, simply click on the "index.html" file and open it with your favorite web browser. 
 
 ### Dependencies
 
