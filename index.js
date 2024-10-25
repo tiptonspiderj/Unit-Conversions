@@ -13,60 +13,49 @@ const button= document.getElementById("convert-btn")
 
 function setInitialPage() {
   input.value = 20
-  stringBuiler(input.value, length)
-  stringBuiler(input.value, volume)
-  stringBuiler(input.value, mass)
+  stringBuiler(input.value)
 }
 setInitialPage()
 
 button.addEventListener("click", function() {
-  stringBuiler(input.value, length)
-  stringBuiler(input.value, volume)
-  stringBuiler(input.value, mass)
+  stringBuiler(input.value)
 })
 
-function stringBuiler(input, elementID) {
-  if (elementID === length){
-    let meters = convertFeetToMeters(input)
-    let feet = convertMetersToFeet(input)
-    elementID.textContent = `${input} meters = ${feet} feet | ${input} feet = ${meters} meters`
-  } else if (elementID === volume){
-    let liters = convertGallonsToLiters(input)
-    let gallons = convertLitersToGallons(input)
-    elementID.textContent = `${input} liters = ${gallons} gallons | ${input} gallons = ${liters} liters`
-  } else {
-    let kilos = convertPoundsToKilos(input)
-    let pounds = convertKilosToPounds(input)
-    elementID.textContent = `${input} kilos = ${pounds} pounds | ${input} pounds = ${kilos} kilos`
-  }
+function stringBuiler(input) {
+  
+    const meters = convertFeetToMeters(input)
+    const feet = convertMetersToFeet(input)
+    length.textContent = `${input} meters = ${feet} feet | ${input} feet = ${meters} meters`
+ 
+    const liters = convertGallonsToLiters(input)
+    const gallons = convertLitersToGallons(input)
+    volume.textContent = `${input} liters = ${gallons} gallons | ${input} gallons = ${liters} liters`
+ 
+    const kilos = convertPoundsToKilos(input)
+    const pounds = convertKilosToPounds(input)
+    mass.textContent = `${input} kilos = ${pounds} pounds | ${input} pounds = ${kilos} kilos` 
 }
 
-function convertFeetToMeters(input) {
-  let meters = (input * (feetToMeterConv)).toFixed(3)
-  return meters
+function convertFeetToMeters(input) { 
+  return (input * (feetToMeterConv)).toFixed(3)
 }
 
 function convertMetersToFeet(input) {
-  let feet = (input * (meterToFeetConv)).toFixed(3)
-  return feet
+  return (input * (meterToFeetConv)).toFixed(3)
 }
 
-function convertGallonsToLiters(input) {
-  let liters = (input * (gallonToLiterConv)).toFixed(3)
-  return liters
+function convertGallonsToLiters(input) { 
+  return (input * (gallonToLiterConv)).toFixed(3)
 }
 
-function convertLitersToGallons(input) {
-  let gallons = (input * (literToGallonConv)).toFixed(3)
-  return gallons
+function convertLitersToGallons(input) { 
+  return (input * (literToGallonConv)).toFixed(3)
 }
 
 function convertKilosToPounds(input) {
-  let pounds = (input * (kiloToPoundConv)).toFixed(3)
-  return pounds
+  return (input * (kiloToPoundConv)).toFixed(3)
 }
 
 function convertPoundsToKilos(input) {
-  let kilos = (input * (poundToKiloConv)).toFixed(3)
-  return kilos
+  return (input * (poundToKiloConv)).toFixed(3)
 }
