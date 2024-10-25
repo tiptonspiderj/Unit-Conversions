@@ -21,8 +21,7 @@ button.addEventListener("click", function() {
   stringBuiler(input.value)
 })
 
-function stringBuiler(input) {
-  
+function stringBuiler(input) {  
     const meters = convertFeetToMeters(input)
     const feet = convertMetersToFeet(input)
     length.textContent = `${input} meters = ${feet} feet | ${input} feet = ${meters} meters`
